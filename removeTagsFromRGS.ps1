@@ -1,5 +1,5 @@
 Connect-AzAccount
-Set-AzContext -SubscriptionId "bd81c2b1-95ae-4edf-ba2d-839a4eb82c00"
+Set-AzContext -SubscriptionId "xxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 $rg = "test"
 $resources = Get-AzResource -ResourceGroupName $rg
